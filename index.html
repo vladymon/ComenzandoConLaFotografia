@@ -7,33 +7,45 @@
     <link rel="stylesheet" href="css/master.css">
   </head>
   <body>
-    <div class="contenido">
-      <div class="cabecera">
-        <header>
-          Comenzando con la Fotografía
-        </header>
-        <nav>
-          <ul>
-            <li><a class="menuActual" href="index.html">Inicio</a></li>
-            <li><a href="paisajes.html">Paisajes</a></li>
-            <li><a href="retratos.html">Retratos</a></li>
-          </ul>
-        </nav>
+    <div class="contenedor">
+      <div class="contenedorCabecera">
+        <div class="bloqueHeader">
+          <header>
+            Comenzando con la Fotografía
+          </header>
+        </div>
+        <div class="bloqueNav">
+          <nav>
+            <ul>
+              <li><a class="menuActual" href="index.html">Inicio</a></li>
+              <li><a href="paisajes.html">Paisajes</a></li>
+              <li><a href="retratos.html">Retratos</a></li>
+            </ul>
+          </nav>
+        </div>
       </div>
-      <section>
-        <article id="imagenCentral">
-          <img src="imagenes/machu-picchu.jpg">
-        </article>
-        <div class="imagenSecundaria">
-          <article id="imagenSecundariaIzq">
-            <img src="imagenes/paisaje.jpg">
-          </article>
-          <article id="imagenSecundariaDer">
-            <img src="imagenes/retrato.jpg">
-          </article>
+
+      <section class="contendorImagenes">
+        <div class="bloqueImgCentral">
+          <figure>
+            <img src="imagenes/machu-picchu.jpg" alt="Machu Picchu">
+          </figure>
+        </div>
+        <div class="bloqueImgSecundariaIzq">
+          <figure>
+            <img src="imagenes/paisaje.jpg" alt="Paisaje" >
+            <figcaption>Paisaje</figcaption>
+          </figure>
+        </div>
+        <div class="bloqueImgSecundariaDer">
+          <figure>
+            <img src="imagenes/retrato.jpg" alt="Retrato" >
+            <figcaption>Retrato</figcaption>
+          </figure>
         </div>
       </section>
-      <footer>
+
+      <footer class="contenedorPiePagina">
         <div class="piePagina">
           <span>Contacto</span>
           <ul>
@@ -52,9 +64,9 @@
           <span>Redes Sociales</span>
           <ul>
             <li>Comparte en nuestras redes</li>
-            <li>Comenzando fotografía</li>
-            <li>Comenzando fotografía</li>
-            <li>Comenzando fotografía</li>
+            <li class="iconoFacebook">Comenzando fotografía</li>
+            <li class="iconoTwiter">Comenzando fotografía</li>
+            <li class="iconoInstagram">Comenzando fotografía</li>
           </ul>
         </div>
         <div class="piePagina">
@@ -64,6 +76,7 @@
           </ul>
         </div>
       </footer>
+
     </div>
   </body>
 </html>
